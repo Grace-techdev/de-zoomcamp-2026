@@ -1,19 +1,25 @@
-# OS / editors
+# OS / IDE
 .DS_Store
+.idea
 .vscode/
 
 # Python
 __pycache__/
-*.pyc
 .venv/
 .env
 
-# Jupyter
-.ipynb_checkpoints/
-
 # Terraform
-.terraform/
 *.tfstate
 *.tfstate.*
-*.tfvars
-crash.log
+**.terraform
+**.terraform.lock.*
+
+**my-creds.json
+
+# Data files
+*.parquet
+*.csv
+data/
+
+# Jupyter
+.ipynb_checkpoints/

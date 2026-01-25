@@ -1,0 +1,14 @@
+[project]
+name = "module-01-docker-terraform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.3.1",
+    "pandas>=3.0.0",
+    "psycopg2-binary>=2.9.11",
+    "pyarrow>=23.0.0",
+    "sqlalchemy>=2.0.46",
+    "tqdm>=4.67.1",
+]
