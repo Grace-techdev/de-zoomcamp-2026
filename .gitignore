@@ -1,6 +1,6 @@
 # OS / IDE
 .DS_Store
-.idea
+.idea/
 .vscode/
 
 # Python
@@ -8,15 +8,20 @@ __pycache__/
 .venv/
 .env
 
+# Secrets
+.env_encoded
+*.env_encoded
+*service-account*.json
+*cred*.json
+secrets/
+
 # Terraform
 *.tfstate
 *.tfstate.*
-**.terraform
-**.terraform.lock.*
+.terraform/
+**/.terraform.lock.*
 
-**my-creds.json
-
-# Data files
+# Data
 *.parquet
 *.csv
 data/
