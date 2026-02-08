@@ -13,7 +13,7 @@ In this module, I worked with:
 
 ## Contents
 
-### `homework/`
+### homework/
 Homework solution for Module 3, including:
 - Loading Yellow Taxi Trip data (Jan–Jun 2024) into GCS using Python
 - Creating external and materialized BigQuery tables
@@ -21,10 +21,9 @@ Homework solution for Module 3, including:
 - Partitioning and clustering experiments
 - SQL queries, screenshots, and explanations for all quiz questions
 
-See: `homework/README.md`
+See: [homework/README.md](homework/README.md)
 
-
-### `scripts/`
+### scripts/
 Python scripts used to load NYC Yellow and Green Taxi data (2019–2020) into
 Google Cloud Storage.
 
@@ -32,16 +31,16 @@ These datasets are used for:
 - BigQuery performance experiments in Module 3
 - Preparing the warehouse for Module 4 (Analytics Engineering with dbt)
 
-### `sql/`
+### sql/
 BigQuery SQL scripts used throughout the module:
 
-- `bigquery_yellow_taxi_setup.sql`  
+- [`bigquery_yellow_taxi_setup.sql`](sql/bigquery_yellow_taxi_setup.sql)  
   External → non-partitioned → partitioned → partitioned & clustered tables
   for Yellow Taxi data (2019–2020)
 
-- `bigquery_green_taxi_setup.sql`  
+- [`bigquery_green_taxi_setup.sql`](sql/bigquery_green_taxi_setup.sql)  
   Same table setup flow for Green Taxi data (2019–2020)
 
-- `big_query_ml.sql`  
-  A simple BigQuery ML example for predicting taxi tips
+- [`big_query_ml.sql`](sql/big_query_ml.sql)  
+  A simple BigQuery ML example for predicting taxi tips  
   (included for learning purposes)
