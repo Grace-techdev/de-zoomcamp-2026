@@ -14,6 +14,7 @@ __pycache__/
 *service-account*.json
 *cred*.json
 secrets/
+gcs.json
 
 # Terraform
 *.tfstate
