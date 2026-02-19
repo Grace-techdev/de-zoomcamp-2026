@@ -29,3 +29,16 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# dlt local state
+.dlt/
+
+# DuckDB files
+*.duckdb
+
+# marimo cache
+__marimo__/
+
+# Cursor config
+.cursor/
+.cursorignore
