@@ -1,0 +1,21 @@
+# DuckDB
+duckdb.db
+duckdb.db.wal
+
+# Bruin logs
+logs/
+
+# dlt local state
+.dlt/
+
+# Python
+__pycache__/
+
+# OS
+.DS_Store
+
+# Do NOT ignore payment_lookup.csv (needed by seed asset)
+!pipeline/assets/ingestion/payment_lookup.csv
+
+# Compiled Python
+*.py[cod]
