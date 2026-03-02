@@ -42,3 +42,8 @@ __marimo__/
 # Cursor config
 .cursor/
 .cursorignore
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]
+logs/queries
